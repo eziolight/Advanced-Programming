@@ -10,8 +10,7 @@ abstract class Shape {
     }
 
     public String toString(){
-        String s = String.format("%s of area %.3f", this.name, this.area);
-        return s;
+        return String.format("%s of area %.3f", this.name, this.area);
     }
 
     public double getArea(){
