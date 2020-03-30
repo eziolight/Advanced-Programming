@@ -1,0 +1,15 @@
+Lab 06
+Names: Ezio Vento Porth, Ambrose Baptista
+Student Number:040865194
+
+Brief description of the task:
+Find a way more efficiently call the Fibonacci sequence in a more time efficient manner than the tail recursive way while still using recursion.
+
+Brief explanation of the solution:
+By creating a Fibonacci class, the values can be stored each time the function was called recursively. This storage of data removes the necessity to call the function an exponential amount of times which was a problem when doing tail end recursion. The values stored in an array can then be progressively calculated in the recursive calls, requiring a calculation process that takes at most O(n) times.
+
+Brief conclusion and description of what I learnt: 
+I learn that BigInteger can be used to store large integers that would cause normally cause an ArithmeticException. I also learnt that recursive functions can be very taxing on the stack of a computer since each call of the function needs to be stored until the base case is reached. This problem can cause a stack overflow if there are too many recursive calls.
+
+List of people I worked with:
+NA
